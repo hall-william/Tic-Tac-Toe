@@ -13,10 +13,10 @@
 		481868C11E70BB4A00DDD259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481868BF1E70BB4A00DDD259 /* Main.storyboard */; };
 		481868C31E70BB4A00DDD259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481868C21E70BB4A00DDD259 /* Assets.xcassets */; };
 		481868C61E70BB4A00DDD259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481868C41E70BB4A00DDD259 /* LaunchScreen.storyboard */; };
-		481868D11E70BB4A00DDD259 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481868D01E70BB4A00DDD259 /* Tic_Tac_ToeTests.swift */; };
-		48450FF81E79AB5300AB4AF1 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 48450FF71E79AB5300AB4AF1 /* Board.png */; };
 		48450FFA1E79AE1500AB4AF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 48450FF91E79AE1500AB4AF1 /* GameScene.sks */; };
 		48450FFC1E79AE2900AB4AF1 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 48450FFB1E79AE2900AB4AF1 /* Actions.sks */; };
+		48450FFE1E7D84C700AB4AF1 /* AIStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48450FFD1E7D84C700AB4AF1 /* AIStrategy.swift */; };
+		484510001E7D850E00AB4AF1 /* GameStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48450FFF1E7D850E00AB4AF1 /* GameStateMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		481868B21E70BB4A00DDD259 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		481868B51E70BB4A00DDD259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		481868BB1E70BB4A00DDD259 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		481868BD1E70BB4A00DDD259 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -38,12 +37,12 @@
 		481868C21E70BB4A00DDD259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481868C51E70BB4A00DDD259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		481868C71E70BB4A00DDD259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		481868CC1E70BB4A00DDD259 /* Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		481868D01E70BB4A00DDD259 /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
-		481868D21E70BB4A00DDD259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48450FF71E79AB5300AB4AF1 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
 		48450FF91E79AE1500AB4AF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		48450FFB1E79AE2900AB4AF1 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		48450FFD1E7D84C700AB4AF1 /* AIStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIStrategy.swift; sourceTree = "<group>"; };
+		48450FFF1E7D850E00AB4AF1 /* GameStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateMachine.swift; sourceTree = "<group>"; };
+		4862C4151E7D97D90019C40D /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Tic-Tac-Toe.app"; path = "/Users/williamhall/Documents/App Development/Tic-Tac-Toe/build/Debug-iphoneos/Tic-Tac-Toe.app"; sourceTree = "<absolute>"; };
+		4862C4161E7D97D90019C40D /* Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Tic-Tac-ToeTests.xctest"; path = "/Users/williamhall/Documents/App Development/Tic-Tac-Toe/build/Debug-iphoneos/Tic-Tac-ToeTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				481868B41E70BB4A00DDD259 /* Tic-Tac-Toe */,
-				481868CF1E70BB4A00DDD259 /* Tic-Tac-ToeTests */,
-				481868B31E70BB4A00DDD259 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		481868B31E70BB4A00DDD259 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				481868B21E70BB4A00DDD259 /* Tic-Tac-Toe.app */,
-				481868CC1E70BB4A00DDD259 /* Tic-Tac-ToeTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		481868B41E70BB4A00DDD259 /* Tic-Tac-Toe */ = {
@@ -87,9 +75,10 @@
 			children = (
 				48450FFB1E79AE2900AB4AF1 /* Actions.sks */,
 				48450FF91E79AE1500AB4AF1 /* GameScene.sks */,
-				48450FF71E79AB5300AB4AF1 /* Board.png */,
 				481868B51E70BB4A00DDD259 /* AppDelegate.swift */,
+				48450FFF1E7D850E00AB4AF1 /* GameStateMachine.swift */,
 				481868BB1E70BB4A00DDD259 /* GameScene.swift */,
+				48450FFD1E7D84C700AB4AF1 /* AIStrategy.swift */,
 				481868BD1E70BB4A00DDD259 /* GameViewController.swift */,
 				481868BF1E70BB4A00DDD259 /* Main.storyboard */,
 				481868C21E70BB4A00DDD259 /* Assets.xcassets */,
@@ -97,15 +86,6 @@
 				481868C71E70BB4A00DDD259 /* Info.plist */,
 			);
 			path = "Tic-Tac-Toe";
-			sourceTree = "<group>";
-		};
-		481868CF1E70BB4A00DDD259 /* Tic-Tac-ToeTests */ = {
-			isa = PBXGroup;
-			children = (
-				481868D01E70BB4A00DDD259 /* Tic_Tac_ToeTests.swift */,
-				481868D21E70BB4A00DDD259 /* Info.plist */,
-			);
-			path = "Tic-Tac-ToeTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +105,7 @@
 			);
 			name = "Tic-Tac-Toe";
 			productName = "Tic-Tac-Toe";
-			productReference = 481868B21E70BB4A00DDD259 /* Tic-Tac-Toe.app */;
+			productReference = 4862C4151E7D97D90019C40D /* Tic-Tac-Toe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		481868CB1E70BB4A00DDD259 /* Tic-Tac-ToeTests */ = {
@@ -143,7 +123,7 @@
 			);
 			name = "Tic-Tac-ToeTests";
 			productName = "Tic-Tac-ToeTests";
-			productReference = 481868CC1E70BB4A00DDD259 /* Tic-Tac-ToeTests.xctest */;
+			productReference = 4862C4161E7D97D90019C40D /* Tic-Tac-ToeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +157,7 @@
 				Base,
 			);
 			mainGroup = 481868A91E70BB4A00DDD259;
-			productRefGroup = 481868B31E70BB4A00DDD259 /* Products */;
+			productRefGroup = 481868A91E70BB4A00DDD259;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -192,7 +172,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48450FF81E79AB5300AB4AF1 /* Board.png in Resources */,
 				48450FFC1E79AE2900AB4AF1 /* Actions.sks in Resources */,
 				48450FFA1E79AE1500AB4AF1 /* GameScene.sks in Resources */,
 				481868C11E70BB4A00DDD259 /* Main.storyboard in Resources */,
@@ -215,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48450FFE1E7D84C700AB4AF1 /* AIStrategy.swift in Sources */,
+				484510001E7D850E00AB4AF1 /* GameStateMachine.swift in Sources */,
 				481868BC1E70BB4A00DDD259 /* GameScene.swift in Sources */,
 				481868BE1E70BB4A00DDD259 /* GameViewController.swift in Sources */,
 				481868B61E70BB4A00DDD259 /* AppDelegate.swift in Sources */,
@@ -225,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				481868D11E70BB4A00DDD259 /* Tic_Tac_ToeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
