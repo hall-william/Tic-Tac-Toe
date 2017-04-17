@@ -66,6 +66,24 @@ class GameViewController: UIViewController {
                 winningLabel.isHidden = false
                 resetButton.isHidden = false
             }
+            
+            activeGame = false
+            
+            for i in gameState
+            {
+                if i == 0
+                {
+                    activeGame = true
+                    break
+                }
+            }
+            
+            if(activeGame == false)
+            {
+                winningLabel.text = "It's a Draw!!!"
+                winningLabel.isHidden = false
+                resetButton.isHidden = false
+            }
         }
     }
     
