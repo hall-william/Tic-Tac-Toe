@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Tic-Tac-Toe
 //
-//  Created by William Hall on 3/8/17.
-//
+//  Created by William Hall on 4/17/17.
+//  Copyright © 2017 William Hall. All rights reserved.
 //
 
 import UIKit
