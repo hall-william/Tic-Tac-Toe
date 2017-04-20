@@ -16,6 +16,7 @@
 		48377CB71EA4FDB70012410D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48377CB61EA4FDB70012410D /* Assets.xcassets */; };
 		48377CBA1EA4FDB70012410D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48377CB81EA4FDB70012410D /* LaunchScreen.storyboard */; };
 		48377CC51EA4FDB70012410D /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48377CC41EA4FDB70012410D /* Tic_Tac_ToeTests.swift */; };
+		48CE01251EA938B500F7C6C6 /* AIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CE01241EA938B500F7C6C6 /* AIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		48377CC01EA4FDB70012410D /* Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48377CC41EA4FDB70012410D /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
 		48377CC61EA4FDB70012410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CE01241EA938B500F7C6C6 /* AIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				48377CAD1EA4FDB70012410D /* Actions.sks */,
 				48377CAF1EA4FDB70012410D /* GameScene.swift */,
 				48377CB11EA4FDB70012410D /* GameViewController.swift */,
+				48CE01241EA938B500F7C6C6 /* AIController.swift */,
 				48377CB31EA4FDB70012410D /* Main.storyboard */,
 				48377CB61EA4FDB70012410D /* Assets.xcassets */,
 				48377CB81EA4FDB70012410D /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 				48377CB01EA4FDB70012410D /* GameScene.swift in Sources */,
 				48377CB21EA4FDB70012410D /* GameViewController.swift in Sources */,
 				48377CAA1EA4FDB70012410D /* AppDelegate.swift in Sources */,
+				48CE01251EA938B500F7C6C6 /* AIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +430,7 @@
 				48377CCB1EA4FDB70012410D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48377CCC1EA4FDB70012410D /* Build configuration list for PBXNativeTarget "Tic-Tac-ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +439,7 @@
 				48377CCE1EA4FDB70012410D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

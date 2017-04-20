@@ -1,8 +1,8 @@
 //
-//  GameViewController.swift
+//  AIController.swift
 //  Tic-Tac-Toe
 //
-//  Created by William Hall on 4/17/17.
+//  Created by William Hall on 4/20/17.
 //  Copyright © 2017 William Hall. All rights reserved.
 //
 
@@ -10,8 +10,7 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController {
-
+class AIController: UIViewController{
     var activePlayer = 1 //X goes first
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0] //array to hold each space on the board
     var activeGame = true
@@ -25,14 +24,14 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
     }
-
+    
     
     @IBAction func action(_ sender: UIButton) {
-     
+        
         //if the space is empty
-        if(gameState[sender.tag-1] == 0 && activeGame)
+        if(gameState[sender.tag-1] == 0 && activeGame && activePlayer == 1)
         {
             //update the sapces
             gameState[sender.tag-1] = activePlayer
@@ -108,7 +107,7 @@ class GameViewController: UIViewController {
     override var shouldAutorotate: Bool {
         return true
     }
-
+    
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
@@ -116,13 +115,14 @@ class GameViewController: UIViewController {
             return .all
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
-
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
+
 }
